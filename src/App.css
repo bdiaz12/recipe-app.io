@@ -64,9 +64,11 @@ table {
 }
 
 /* Column Size for thead */
-
-thead>tr>:nth-child(n+4):nth-child(-n+5), tbody>tr>:nth-child(n+4): :nth-child(-n+5){
+thead > tr > :nth-child(n+4):nth-child(-n+5), 
+tbody > tr > :nth-child(n+4):nth-child(-n+5) {
   width: 30%;
+}
+
 }
 
 /* Column size for tbody */
